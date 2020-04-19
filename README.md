@@ -6,5 +6,4 @@ Plugins include
 * To Number
 * To String
 * To Boolean
-* To Object
 
