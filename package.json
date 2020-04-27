@@ -20,9 +20,25 @@
     "url": "https://github.com/data-science-lab-app/dsl-converters/issues"
   },
   "homepage": "https://github.com/data-science-lab-app/dsl-converters#readme",
-  "data_science_lab": [],
+  "data_science_lab": [
+    {
+      "name": "To Boolean",
+      "type": "Transform",
+      "classname": "ToBooleanConverter"
+    },
+    {
+      "name": "To String",
+      "type": "Transform",
+      "classname": "ToStringConverter"
+    },
+    {
+      "name": "To Number",
+      "type": "Transform",
+      "classname": "ToNumberConverter"
+    }
+  ],
   "dependencies": {
-    "data-science-lab-core": "^0.0.27"
+    "data-science-lab-core": "^0.0.30"
   },
   "devDependencies": {
     "@types/node": "^12.11.1",
